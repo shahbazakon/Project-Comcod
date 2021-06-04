@@ -1,0 +1,32 @@
+﻿<section class="docs">
+                                                <h2>
+                                                    Interview Coding question</h2>
+                                                <p>
+                                                    Find the HCF and GCF Program in <code>&lt;C++&gt;</code></p>
+                                                <div class="docs-example">
+                                                    
+#include <iostream>
+using namespace std;<br>
+
+int main()<br>
+{<br>
+    int n1, n2;<br>
+<br>
+    cout << "Enter two numbers: ";<br>
+    cin >> n1 >> n2;<br>
+    
+    while(n1 != n2)<br>
+    {<br>
+        if(n1 > n2)<br>
+            n1 -= n2;<br>
+        else<br>
+            n2 -= n1;<br>
+    }<br>
+<br>
+    cout << "GCF or HCF = " << n1;<br>
+    return 0;<br>
+}<br>
+                                                   
+                                                   
+                                                </div>
+</section>

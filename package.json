@@ -1,0 +1,28 @@
+{
+  "name": "comcod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "comcodTeam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15",
+    "multer": "^1.4.2",
+    "node-localstorage": "^2.1.6",
+    "nodemailer": "^6.4.16",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "path": "^0.12.7",
+    "twilio": "^3.54.0",
+    "validator": "^13.1.17"
+  }
+}
